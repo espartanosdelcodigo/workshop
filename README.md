@@ -1,0 +1,2 @@
+# workshop
+Existe una heroína que tiene que atravesar una cierta cantidad de niveles. Cada nivel tiene 2 posibles encuentros: hallar un tesoro o realizar una batalla con algunos de los 5 jefes.   La heroína tiene un conjunto de 4 atributos que definen la cantidad de vida total, y cada jefe ataca en particular a un atributo, excepto por Megastófeles, que ataca a todos los atributos.  En el tesoro, la heroína podrá encontrar ítems para defenderse de los jefes, pero si tiene muy mala suerte, puede encontrar nada.
