@@ -1,4 +1,4 @@
-function megastofeles(gameObject) {
+export function megastofeles(gameObject) {
     console.log("Te encontraste con Megastofeles!")
     if (!gameObject.items.espejo) {
         console.log("*Megastofeles ataca!*")
@@ -17,7 +17,7 @@ function megastofeles(gameObject) {
     return gameObject;
 }
 
-function obtenerEspejo(gameObject) {
+export function obtenerEspejo(gameObject) {
     console.log("*Revisas un cofre que encuentras al fondo de tu batalla y...*")
     const vidatotal = (gameObject.stats.carisma + gameObject.stats.fuerza + gameObject.stats.belleza + gameObject.stats.inteligencia)
     const aleatorio = Math.floor(Math.random() * 10) + 1;
